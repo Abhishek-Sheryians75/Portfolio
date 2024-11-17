@@ -1,0 +1,375 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    position: relative;
+}
+
+.page1{
+    height: 100%;
+    width: 100%;
+    background: url(https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.7);
+}
+
+.nav{
+    height: 10%;
+    padding: 10px 40px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navle{
+    display: flex;
+    gap: 5px;
+}
+
+.navle img{
+    height: 20px;
+}
+
+.navle h2{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(179, 174, 174);
+}
+
+.navcen{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255, 0.5);
+    text-align: center;
+    border-radius: 50px;
+    height: 80%;
+}
+
+.navcen h6{
+    border-right: 1px solid rgb(175, 173, 173);
+    padding: 10px 30px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+.navcen .change{
+    border: none;
+}
+
+.navri {
+    position: relative;
+}
+
+.navri button{
+    padding: 8px  20px;
+    border: none;
+    border-radius: 50px;
+    position: relative;
+}
+
+.navri i{
+    position: absolute;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    top: -25%;
+    right: -15%;
+}
+
+.section{
+    height: 90%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 60px;
+}
+
+.section h1{
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    color: white;
+}
+.insta button{
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #b8b4b4;
+}
+.event button{
+    margin-right: 10px;
+    margin-bottom: 30px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #b8b4b4;
+}
+
+.page2,
+.page3{
+    height: 80%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.left p,
+.threeleft p{
+    color: #a7a3a3;
+    font-size: 20px;
+}
+
+.left h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: #ded9d9;
+    margin-top: 30px;
+}
+
+.right h3{
+    color: #302f2f;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.right span{
+    color: white;
+}
+
+.right p{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.right button{
+    padding: 10px 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+    position: relative;
+}
+
+.right  i{
+    position: absolute;
+    background-color: white;
+    top: 152%;
+    left: 72%;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.page3{
+    background-color: #314f37;
+}
+
+.threeleft{
+    height: 100%;
+    width: 50%;
+    padding-top: 40px;
+}
+.threeright{
+    height: 100%;
+    width: 50%;
+    padding-top: 100px;
+}
+
+.threeleft img{
+    height: 250px;
+    width: 550px;
+    margin-top: 40px;
+}
+
+.threeleft h4{
+    color: #b8b4b4;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+.threeleft h4 span{
+    color: #171616;
+}
+
+.one{
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-bottom: 20px;
+    /* background-color: white; */
+    width: 70%;
+}
+
+.one p{
+    line-height: 1.4;
+    font-size: 17px;
+    color: #b8b4b4;
+}
+
+.one input{
+    height: 8px;
+}
+
+.page4{
+    height: 80%;
+    background-color: black;
+    display: flex;
+}
+
+.fourleft{
+    height: 100%;
+    width: 50%;
+    /* background-color: yellow; */
+    /* padding-top: 30px; */
+    border-right: 2px solid white;
+    padding: 30px ;
+}
+
+.fourleft p,
+.fourright p{
+    color: #b8b4b4;
+}
+
+.number1,
+.number2{
+    /* background-color: red; */
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.number1 h1,
+.number2 h1{
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+}
+
+.number1 p,
+.number2 p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #ded9d9;
+}
+
+.fourright{
+    height: 100%;
+    width: 50%;
+    /* background-color: #ff002b; */
+    padding: 20px 30px;
+}
+
+
+
+.client{
+    height: 90%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 40px;
+}
+
+.date{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    /* background-color: #fff; */
+    margin-bottom: 12px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.date p{
+    line-height: 1.3;
+}
+
+.bt1{
+    height: 10%;
+    margin-top: 40px;
+    
+}
+
+.bt1 h3{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.bt1 h3 span{
+    color: #302f2f;
+}
+
+.page5{
+    height: 50%;
+    background-color: #314f37;
+    padding: 10px 20px;
+}
+
+.page5 p{
+    color: #b8b4b4;
+}
+
+.page5 h3 span{
+    color: white;
+}
+
+.page5 h3{
+    margin-top: 30px;
+}
+
+.page5 button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: none;
+    color: black;
+    border-radius: 50px;
+}
+
+.page5 div{
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
